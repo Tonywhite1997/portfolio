@@ -1,0 +1,45 @@
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1em;
+    box-shadow: 0 2px 0 0 rgb(45, 45, 45);
+
+    .logo{
+        font-size: 1.5rem;
+        padding: .2em 1em;
+
+        .O{
+            color: red;
+        }
+        .l{
+            color: rgb(247, 189, 82);
+        }
+        .u{
+            color: rgb(184, 184, 8);
+        }
+        .w{
+            color:green;
+        }
+        .o{
+            color: rgb(64, 64, 250);
+        }
+        .L{
+            color: rgb(141, 8, 236);
+        }
+        .e{
+            color: violet;
+        }
+    }
+
+    ul{
+        display: flex;
+        gap: 1em;
+        list-style: none;
+
+        li{
+            font-weight: 600;
+        }
+    }
+}

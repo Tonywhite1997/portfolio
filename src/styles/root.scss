@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./header";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bgclr;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    word-spacing: .2rem;
+}
